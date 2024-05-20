@@ -1,0 +1,2 @@
+# js-15-05-2024-task
+JS PRACTICE QSTNS
