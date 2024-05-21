@@ -126,31 +126,31 @@ console.log(sum(1, 4));                 output ---> 5
     let volt = 20;                                     //Normal
     let current = 5;
     let power = volt * current;
-    console.log(power + " watts");                        //output---> 100 watts
+    console.log(power + " "+"watts");                        //output---> 100 watts
     
     function powerconvert(volt, current) {              //named function
         let power = volt * current;
-        return power + " watts";
+        return power + " "+"watts";
     }
     console.log(powerconvert(20, 5));                    //output---> 100 watts
     
     function powerconvert(volt, current) {              //named function
-        return volt * current + " watts";
+        return volt * current + " "+"watts";
     }
     console.log(powerconvert(20, 5));                    //output---> 100 watts
     
     var powerconvert = function (volt, current) {       //Anonymous function
-        return volt * current + " watts";
+        return volt * current + " "+"watts";
     }
     console.log(powerconvert(20, 5));                    //output---> 100 watts
     
     var powerconvert = (volt, current) => {             //Arrow function
-        return volt * current + " watts";
+        return volt * current + " "+"watts";
     }
     console.log(powerconvert(20, 5));                    //output---> 100 watts
     
     (function powerconvert(volt, current) {             // Immediately Invoked Function Expression (IIFE)
-        console.log(volt * current + " watts");
+        console.log(volt * current + " "+"watts");
     })
         (20, 5)                                        //output---> 100 watts
     
@@ -274,22 +274,22 @@ console.log(sum(1, 4));                 output ---> 5
     var greetings = (a) => {                  //Arrow function
         return "hello" + a;
     }
-    console.log(greetings(" shiva"));         // output--->hello shiva
+    console.log(greetings(" "+"shiva"));         // output--->hello shiva
     
     function greetings(a) {                   //Named function
         return "hello" + a;
     }
-    console.log(greetings(" shiva"));         // output--->hello shiva
+    console.log(greetings(" "+"shiva"));         // output--->hello shiva
     
     var greetings = function (a) {            //Anonymous function
         return "hello" + a;
     }
-    console.log(greetings(" shiva"));         // output--->hello shiva
+    console.log(greetings(" "+"shiva"));         // output--->hello shiva
     
     (function (a) {                           // Immediately Invoked Function Expression (IIFE)
         console.log("hello" + a);
     })
-        (" shiva")                                      // output--->hello shiva
+        (" "+"shiva")                                      // output--->hello shiva
     
     <h4>10. Create a function that takes an array of 10 numbers (between 0 and 9) and returns a 
     string of those numbers formatted as a phone number (e.g. (555) 555-5555).</h4>
